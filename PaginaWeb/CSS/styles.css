@@ -40,22 +40,28 @@
 	color: rgb(199, 56, 139);
 }
 
-
 .header-fixed .header-limiter a {
+    line-height: 24px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-fixed .header-limiter a.texto-seleccionable {
     line-height: 24px;
 	color: #ffffff;
 	text-decoration: none;
     transition: all 0.3s;
 }
 
-.header-fixed .header-limiter a:hover {
+.header-fixed .header-limiter a.texto-seleccionable:hover {
 	color: rgb(199, 56, 139);
 	text-decoration: none;
+
     transition: all 0.3s;
 }
 
 .header-fixed .header-limiter nav {
-	font:16px Arial, Helvetica, sans-serif;
+	font:16px sans-serif;
 	line-height: 40px;
 	float: right;
 }
@@ -142,6 +148,14 @@ body {
 	height: 1500px;
 }
 
+.row{
+    padding: 2%;
+
+
+
+}
+
+
 
 .texto-seleccionable{
 
@@ -157,16 +171,16 @@ border-color: rgb(250, 207, 214);
 color: black;
 padding: 10px 20px;
 border-radius: 10px;
-margin-left: 5px;
+margin: 2%;
 transition: all 0.3s;
 }
 
 .boton-interactivo:hover{
     background-color: rgb(233, 101, 151);
     color: black;
-    padding: 10px 20px;
+    padding: 2% 4%;
     border-radius: 10px;    
-    margin-left: 5px;
+    margin: 2%;
     transition: all 0.3s;
     transform: scale(1.05);
 }
