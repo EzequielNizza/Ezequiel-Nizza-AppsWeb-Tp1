@@ -1,5 +1,5 @@
 .header-fixed {
-	background-color:#292c2f;
+	background-color:rgb(230, 159, 172);
 	box-shadow:0 1px 1px #ccc;
 	padding: 20px 40px;
 	height: 80px;
@@ -10,6 +10,11 @@
 	-webkit-transition:top 0.3s;
 	transition:top 0.3s;
 }
+
+
+
+
+
 
 .header-fixed .header-limiter {
 	max-width: 1200px;
@@ -26,19 +31,27 @@
 
 .header-fixed .header-limiter h1 {
 	float: left;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	font: normal 28px sans-serif;
 	line-height: 40px;
 	margin: 0;
 }
 
 .header-fixed .header-limiter h1 span {
-	color: #5383d3;
+	color: rgb(199, 56, 139);
 }
 
 
 .header-fixed .header-limiter a {
+    line-height: 24px;
 	color: #ffffff;
 	text-decoration: none;
+    transition: all 0.3s;
+}
+
+.header-fixed .header-limiter a:hover {
+	color: rgb(199, 56, 139);
+	text-decoration: none;
+    transition: all 0.3s;
 }
 
 .header-fixed .header-limiter nav {
@@ -130,11 +143,17 @@ body {
 }
 
 
+.texto-seleccionable{
+
+color: white;
+height: 32px;
+font-family: sans-serif;
+}
 
 .boton-interactivo{
 
-background-color: pink;
-border-color: pink;
+background-color:rgb(250, 207, 214);
+border-color: rgb(250, 207, 214);
 color: black;
 padding: 10px 20px;
 border-radius: 10px;
