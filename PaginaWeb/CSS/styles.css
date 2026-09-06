@@ -1,6 +1,5 @@
 .header-fixed {
   background-color: rgb(230, 159, 172);
-  box-shadow: 0 1px 1px #ccc;
   padding: 20px 40px;
   height: 80px;
   color: #ffffff;
@@ -63,7 +62,7 @@
   display: inline-block;
   padding: 0 5px;
   text-decoration: none;
-  color: #ffffff;
+  color:  rgb(230, 159, 172);
   opacity: 0.9;
 }
 
@@ -72,7 +71,7 @@
 }
 
 .header-fixed .header-limiter nav a.selected {
-  color: #608bd2;
+  color: rgb(199, 56, 139);
   pointer-events: none;
   opacity: 1;
 }
@@ -184,7 +183,21 @@ body {
   transform: scale(1.05);
 }
 
-section{
+.formulario {
+  background-color: rgb(250, 207, 214);
+  text-decoration: none;
+  height: auto;
+}
+.principal {
+  background-color: white;
+  text-decoration: none;
+  height: auto;
+}
+.divisor {
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: #fff4b2;
   text-decoration: none;
 }
 
@@ -207,17 +220,6 @@ h6 {
   text-decoration: none;
 }
 
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #ccc;
-  height: 60vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
 
 .footer-distributed {
   background-color: rgb(230, 159, 172);
@@ -265,6 +267,9 @@ section {
   content: none;
 }
 
+
+
+
 .footer-distributed .footer-right {
   float: right;
   margin-top: 6px;
@@ -275,24 +280,21 @@ section {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: rgb(199, 56, 139);
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
   margin-left: 3px;
-  transition: all 0.25s;
+  transition:all .25s;
 }
 
-.footer-distributed .footer-right a:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-}
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
-.footer-distributed p.footer-links a:hover {
-  text-decoration: underline;
-}
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+
 
 @media (max-width: 600px) {
   .footer-distributed .footer-left,
