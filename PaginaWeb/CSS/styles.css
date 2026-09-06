@@ -11,6 +11,7 @@
 }
 
 .header-fixed .header-limiter {
+  background-color: rgb(230, 159, 172);
   max-width: 1200px;
   text-align: center;
   margin: 0 auto;
@@ -36,21 +37,16 @@
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
-}
-
-.header-fixed .header-limiter a.texto-seleccionable {
-  line-height: 24px;
-  color: #ffffff;
-  text-decoration: none;
   transition: all 0.3s;
 }
 
-.header-fixed .header-limiter a.texto-seleccionable:hover {
+.header-fixed .header-limiter a:hover {
+  line-height: 24px;
   color: rgb(199, 56, 139);
   text-decoration: none;
-
   transition: all 0.3s;
 }
+
 
 .header-fixed .header-limiter nav {
   font: 16px sans-serif;
@@ -62,7 +58,7 @@
   display: inline-block;
   padding: 0 5px;
   text-decoration: none;
-  color:  rgb(230, 159, 172);
+  color:  #ffffff;
   opacity: 0.9;
 }
 
